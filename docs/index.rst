@@ -10,8 +10,8 @@ Welcome to Hypot's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-   dependencies.rst
-   functions.rst
+   dependencies
+   functions
 
 Indices and tables
 ==================
