@@ -1,12 +1,10 @@
 def squared(a):
-    """
-    Calculate the square of a number.
+    """Square a number
 
-    Parameters:
-    - a (int or float): The number to be squared.
-
-    Returns:
-    int or float: The square of the input number.
+    :param a: Number
+    :type a: int, float
+    :return: Squared number
+    :rtype: int, float
     """
     return a * a
 
