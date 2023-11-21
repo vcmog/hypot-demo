@@ -5,7 +5,7 @@ import pytest
 # test addition
 ## 4 + 7 = 11
 def test_addition_int():
-    assert addition(4, 7) == 4
+    assert addition(4, 7) == 11
 
 
 ## 2.3 + 7.92 = 10.22
