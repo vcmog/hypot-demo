@@ -1,4 +1,4 @@
-from hypot.calc import squared, addition, sqroot
+from hypot.calc import squared, addition, sqroot, hypot
 
 
 # test addition
