@@ -42,6 +42,17 @@ def sqroot(a):
 
 
 def hypot(a, b):
+    """
+    Calculate the hypotenuse from the two shorter sides.
+
+    Parameters:
+    - a (int or float): The first length.
+    - b (int or float): The second length.
+
+
+    Returns:
+    float: The length of the hypotenuse.
+    """
     sa = squared(a)
     sb = squared(b)
     sumAB = addition(sa, sb)
