@@ -22,6 +22,9 @@ def addition(a, b):
     Returns:
     int or float: The sum of the two input numbers.
     """
+    if isinstance(a, str) or isinstance(a, str):
+        return "Please use integer or float"
+
     return a + b
 
 
@@ -36,3 +39,11 @@ def sqroot(a):
     float: The square root of the input number.
     """
     return a**0.5
+
+
+def hypot(a, b):
+    sa = squared(a)
+    sb = squared(b)
+    sumAB = addition(sa, sb)
+
+    return sqroot(sumAB)
